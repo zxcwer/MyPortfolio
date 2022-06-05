@@ -40,6 +40,11 @@ body {
   line-height: 1.7;
 }
 
+.container {
+  width: var(--container--width-lg);
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
