@@ -1,15 +1,5 @@
 header {
-  background-image: url("../../assets/01.png");
-  height: 64vh;
-}
-
-@media screen and (max-width: 1024) {
-  .header {
-    height: 68%;
-  }
-}
-@media screen and (max-width: 600) {
-  .header {
-    height: auto;
-  }
+  /* background-image: url("../../assets/01.png"); */
+  background-image: linear-gradient(#715cb5, #4491bf);
+  height: 100vh;
 }

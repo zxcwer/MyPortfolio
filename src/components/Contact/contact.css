@@ -1,4 +1,5 @@
 .section__contact {
-  background-image: url("../../assets/04.png");
-  height: 64vh;
+  /* background-image: url("../../assets/04.png"); */
+  background-image: linear-gradient(#f3d69e, #ec6d67);
+  height: 100vh;
 }

@@ -1,4 +1,5 @@
 .section__portfolio {
-  background-image: url("../../assets/03.png");
-  height: 64vh;
+  /* background-image: url("../../assets/03.png"); */
+  background-image: linear-gradient(#63e3fc, #f3d69e);
+  height: 100vh;
 }
