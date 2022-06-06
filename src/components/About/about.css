@@ -2,4 +2,44 @@
   /* background-image: url("../../assets/02.png"); */
   background-image: linear-gradient(#4491bf, #63e3fc);
   height: 100vh;
+  padding-top: 2rem;
+}
+.container__about {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  gap: 10%;
+}
+.about__me {
+  width: 50%;
+}
+.about__cards {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+.about__card {
+  margin: 0.7rem 0;
+  border: 1px solid;
+  border-radius: 2rem;
+  padding-left: 2rem;
+}
+
+/*---------------*/
+/*Ipad*/
+/*---------------*/
+@media screen and (max-width: 1024px) {
+  .container__about {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .about__me {
+    width: 50%;
+  }
+}
+/*---------------*/
+/*smartphone*/
+/*---------------*/
+@media screen and (max-width: 600px) {
+  .about__image {
+    display: none;
+  }
 }
