@@ -12,6 +12,9 @@
 .about__me {
   width: 50%;
 }
+.about__me-image {
+  width: 250px;
+}
 .about__cards {
   display: grid;
   grid-template-rows: repeat(3, 1fr);

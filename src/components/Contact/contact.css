@@ -2,4 +2,44 @@
   /* background-image: url("../../assets/04.png"); */
   background-image: linear-gradient(#f3d69e, #ec6d67);
   height: 100vh;
+  padding-top: 2rem;
+}
+.section__contact > h2,
+.section__contact > h5 {
+  color: #fcf9c6;
+}
+.container__contact {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 10%;
+}
+.contact__items {
+  width: max-content;
+  padding: 1.2rem;
+  border: 1px solid;
+  border-radius: 1.2rem;
+}
+.contact__item {
+  padding-bottom: 1.2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
+input,
+textarea {
+  border: 1px solid;
+  border-radius: 0.7rem;
+  padding: 0.5rem;
+}
+/*---------------*/
+/*smartphone*/
+/*---------------*/
+@media screen and (max-width: 600px) {
+  form {
+    display: none;
+  }
 }
