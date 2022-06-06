@@ -2,21 +2,20 @@
   /* background-image: url("../../assets/04.png"); */
   background-image: linear-gradient(#f3d69e, #ec6d67);
   height: 100vh;
-  padding-top: 2rem;
+  padding-top: 1.2rem;
 }
 .section__contact > h2,
 .section__contact > h5 {
   color: #fcf9c6;
 }
 .container__contact {
-  padding-top: 2rem;
   display: grid;
-  grid-template-columns: 45% 45%;
-  gap: 10%;
+  grid-template-columns: 45% 50%;
+  gap: 5%;
 }
 .contact__items {
   width: max-content;
-  padding: 1.2rem;
+  padding: 1rem;
   border: 1px solid;
   border-radius: 1.2rem;
 }
