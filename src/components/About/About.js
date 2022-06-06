@@ -16,17 +16,19 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <h3>Bio</h3>
-              <p>Name: Keoduangdy Nitphon</p>
+              <p>Name: Keoduangdy Nitphon </p>
+              <p>名前：ケーオデォンディ・ニティポーン</p>
             </article>
 
             <article className="about__card">
               <h3>Education</h3>
               <p>School: Tsuyama college</p>
+              <p>学校名：津山高専 </p>
             </article>
 
             <article className="about__card">
               <h3>Hobby</h3>
-              <p>Cycling</p>
+              <p>Cycling, Making Sweets, Cafe</p>
             </article>
           </div>
         </div>

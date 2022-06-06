@@ -1,0 +1,14 @@
+footer {
+  padding: 2rem 0rem 7rem;
+  background-color: var(--color--primary);
+  font-size: 14px;
+}
+.container__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__socials {
+  right: 3rem;
+}
