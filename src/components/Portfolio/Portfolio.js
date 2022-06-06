@@ -19,7 +19,11 @@ const Portfolio = () => {
             >
               Source code
             </a>
-            <a href="" target="_blank" className="btn btn--primary">
+            <a
+              href="https://zxcwer.github.io/MyPortfolio/"
+              target="_blank"
+              className="btn btn--primary"
+            >
               Demo
             </a>
           </article>
