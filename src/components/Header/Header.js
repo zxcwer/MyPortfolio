@@ -6,12 +6,10 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <div className="">
-          <h5> Hello I'm</h5>
-          <h1> Gie </h1>
-          <h5 className="text-light"> Fullstack Developer </h5>
-          <img src={me} alt="me"></img>
-        </div>
+        <h5> Hello I'm</h5>
+        <h1> Gie </h1>
+        <h5 className="text-light"> Fullstack Developer </h5>
+        <img src={me} alt="me"></img>
       </div>
       <HeaderSocial />
       <a href="#contact" className="scroll__down">
