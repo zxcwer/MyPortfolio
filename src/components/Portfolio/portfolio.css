@@ -3,3 +3,42 @@
   background-image: linear-gradient(#63e3fc, #f3d69e);
   height: 100vh;
 }
+.container__portfolio {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.portfolio__items {
+  padding: 1.2rem;
+  border: 1px solid;
+  border-radius: 2rem;
+  background-color: transparent;
+  transition: var(--transition);
+}
+.portfolio__items:hover {
+  background-color: #dde7ee;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  color: var(--color--primary);
+}
+.portfolio__item-image {
+  width: 250px;
+}
+
+/*---------------*/
+/*Ipad*/
+/*---------------*/
+@media screen and (max-width: 1024px) {
+  .container {
+    height: 50%;
+  }
+}
+/*---------------*/
+/*smartphone*/
+/*---------------*/
+@media screen and (max-width: 600px) {
+  .section__portfolio {
+    height: 100vh;
+  }
+}

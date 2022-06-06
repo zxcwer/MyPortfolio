@@ -57,3 +57,27 @@ section h2,
 h5 {
   text-align: center;
 }
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 1rem;
+  background-color: var(--color--white);
+  padding: 0.7rem 1.2rem;
+}
+.btn:hover {
+  background-color: var(--color--primary);
+  color: var(--color--white);
+}
+
+.btn--primary {
+  margin-left: 0.7rem;
+  color: var(--color--light);
+  background-color: var(--color--primary);
+  border-color: var(--color--primary);
+}
+.btn--primary:hover {
+  background-color: transparent;
+  color: var(--color--primary);
+}

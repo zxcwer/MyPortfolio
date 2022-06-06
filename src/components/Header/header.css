@@ -42,6 +42,7 @@ header {
 }
 .scroll__down:hover {
   background-color: transparent;
+  transition: var(--transition);
 }
 
 /*---------------*/
