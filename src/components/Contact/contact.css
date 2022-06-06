@@ -18,7 +18,7 @@
   padding: 1rem;
   border: 1px solid;
   border-radius: 1.2rem;
-  border-color: var(--color--primary);
+  border-color: var(--color--white);
 }
 .contact__item {
   padding-bottom: 1.2rem;
