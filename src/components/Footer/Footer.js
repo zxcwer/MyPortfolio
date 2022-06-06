@@ -11,13 +11,16 @@ const Footer = () => {
         </div>
         <div className="footer__copyright"></div>
         <div className="footer_socials">
-          <a href="" target="_blank">
+          <a
+            href="https://www.facebook.com/Nitiphon.keoduangdy/"
+            target="_blank"
+          >
             <AiFillFacebook size="2rem" />
           </a>
-          <a href="" target="_blank">
+          <a href="https://www.instagram.com/_kk_kdd/" target="_blank">
             <AiFillInstagram size="2rem" />
           </a>
-          <a href="" target="_blank">
+          <a href="ttps://github.com/zxcwer" target="_blank">
             <AiFillGithub size="2rem" />
           </a>
         </div>
