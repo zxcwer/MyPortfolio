@@ -5,12 +5,12 @@
 
 **注意**:ウェブ作成経験が少ないため、対応されていないデバイスやバグ発生する可能がある. 
 <div style="text-align:center">
-<img src="../myprtofolio/images/image-pc.png" style="width:50%"/>
+<img src="./images/image-pc.png" style="width:50%"/>
 <p> PC
 
 </div>
 <div style="text-align:center">
-<img src="../myprtofolio/images/image-smartphone.png" style="width:30%"/>
+<img src="./images/image-smartphone.png" style="width:30%"/>
 <p> スマホ
 </div>
 
