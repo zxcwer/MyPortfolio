@@ -20,7 +20,7 @@ const Footer = () => {
           <a href="https://www.instagram.com/_kk_kdd/" target="_blank">
             <AiFillInstagram size="2rem" />
           </a>
-          <a href="ttps://github.com/zxcwer" target="_blank">
+          <a href="https://github.com/zxcwer" target="_blank">
             <AiFillGithub size="2rem" />
           </a>
         </div>

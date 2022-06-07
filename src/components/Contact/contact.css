@@ -34,6 +34,7 @@ textarea {
   border: 1px solid;
   border-radius: 0.7rem;
   padding: 0.5rem;
+  resize: none;
   border-color: var(--color--white);
 }
 /*---------------*/

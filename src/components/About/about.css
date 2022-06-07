@@ -1,5 +1,4 @@
 .section__about {
-  /* background-image: url("../../assets/02.png"); */
   background-image: linear-gradient(#4491bf, #63e3fc);
   height: 100vh;
   padding-top: 2rem;
@@ -14,6 +13,7 @@
 }
 .about__me-image {
   width: 250px;
+  border-radius: 2rem;
 }
 .about__cards {
   display: grid;

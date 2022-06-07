@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import me from "../../assets/header-photo.png";
+import me from "../../assets/LittleTurtle.PNG";
 const Portfolio = () => {
   return (
     <section id="portfolio" className="section__portfolio">

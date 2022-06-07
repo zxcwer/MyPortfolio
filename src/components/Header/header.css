@@ -11,6 +11,10 @@ header {
   height: 100%;
   position: relative;
 }
+.header__container > img {
+  width: 300px;
+  border-radius: 25% 25% 0.5rem 0.5rem;
+}
 
 /*---------------*/
 /*Header Socials */

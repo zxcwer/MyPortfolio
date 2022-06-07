@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import HeaderSocial from "./HeaderSocial";
-import me from "../../assets/header-photo.png";
+import me from "../../assets/me.jpg";
 const Header = () => {
   return (
     <header>
