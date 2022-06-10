@@ -39,6 +39,9 @@
 /*---------------*/
 @media screen and (max-width: 600px) {
   .section__portfolio {
-    height: 100vh;
+    height: 140vh;
+  }
+  .container__portfolio {
+    grid-template-columns: 1fr;
   }
 }
